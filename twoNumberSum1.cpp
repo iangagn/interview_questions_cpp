@@ -19,7 +19,6 @@ vector<int> twoNumberSum(vector<int> array, int targetSum) {
 				return vector<int>{array[i], array[j]};
 			}
 		}
-		
 	}
 	
   return {};

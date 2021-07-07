@@ -1,8 +1,16 @@
 #include <vector>
 #include <unordered_map>
-using namespace std;
 
 #define PTS_PER_WIN 3
+
+/*
+	Approach based on key-value map.
+	
+	Time complexity  : O(n) where n = number of competitions
+	Space complexity : O(k) where k = number of teams
+*/
+
+using namespace std;
 
 string tournamentWinner(vector<vector<string>> competitions,
                         vector<int> results) 

@@ -22,7 +22,7 @@ string tournamentWinner(vector<vector<string>> competitions,
 		(scores.find(winner) != scores.end()) ? (scores[winner] += scores[winner] ) : // Team already exists, increment score
 		                                        (scores[winner] = PTS_PER_WIN);       // Team does not exist, add to map and initialize score
 		
-		// Update best team so far
+		// Update best-so-far team
 		if (scores[winner] > scores[best_so_far])
 			best_so_far = winner;
 
